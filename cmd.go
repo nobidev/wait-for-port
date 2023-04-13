@@ -18,7 +18,7 @@ const (
 
 // WaitForPortCmd allows checking a port state
 type WaitForPortCmd struct {
-	Host    string `short:"h" long:"host" description:"Host where to check for the port" default:"" value-name:"HOST"`
+	Host    string `short:"H" long:"host" description:"Host where to check for the port" default:"" value-name:"HOST"`
 	State   string `short:"s" long:"state" choice:"inuse" choice:"free" description:"State to wait for" default:"inuse"`
 	Timeout int    `short:"t" long:"timeout" default:"30" description:"Timeout in seconds to wait for the port" value-name:"SECONDS"`
 	Args    struct {
