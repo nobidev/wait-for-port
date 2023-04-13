@@ -1,4 +1,4 @@
-module github.com/bitnami/wait-for-port
+module github.com/nobidev/wait-for-port
 
 go 1.18
 
